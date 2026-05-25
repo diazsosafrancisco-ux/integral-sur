@@ -10534,7 +10534,11 @@ function Hoy({ session, onToast, onNavigate }) {
         </div>
       </div>
 
-      {/* Indicador de carga — solo mientras no hay datos */}
+      {/* BANNER DE PRUEBA — ELIMINAR DESPUÉS */}
+      <div style={{background:'#ff6b35', color:'white', padding:'10px 14px',
+        borderRadius:10, textAlign:'center', fontWeight:700, fontSize:14, marginBottom:10}}>
+        🧪 VERIFICACIÓN DE PRUEBA — GitHub → Cloudflare ✅
+      </div>
       {cargandoDatos && (
         <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginTop:14, marginBottom:14}}>
           {[0,1,2,3].map(i => (
